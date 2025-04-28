@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
             </div>
             
             <h1 className="mb-6 leading-tight">
-              Breaking Communication Barriers: Real-Time Sign-to-Speech Conversion
+              Breaking Communication Barriers: Real-Time Sign-to-text Conversion
             </h1>
             
             <p className="mb-8 leading-relaxed">

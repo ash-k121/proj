@@ -119,8 +119,8 @@ const Demo: React.FC = () => {
       }`}
     >
       <div className="section-title">
-        <h2>Live Demo</h2>
-        <p>Experience the technology in action with our interactive demo</p>
+        <h2>Translation</h2>
+        <p>Experience the technology in action with our interactive </p>
       </div>
       
       <div className="max-w-4xl mx-auto">
@@ -184,7 +184,7 @@ const Demo: React.FC = () => {
                   onClick={handleStartDemo}
                 >
                   <Play size={18} />
-                  Start Demo
+                  Start 
                 </button>
               ) : (
                 <button 
@@ -192,7 +192,7 @@ const Demo: React.FC = () => {
                   onClick={handleStopDemo}
                 >
                   <XCircle size={18} />
-                  Stop Demo
+                  Stop 
                 </button>
               )}
             </div>

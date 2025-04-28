@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
             <MessageSquare size={24} />
           </div>
           <span className="text-2xl font-bold bg-gradient-to-r from-light-primary to-light-secondary dark:from-dark-primary dark:to-dark-secondary bg-clip-text text-transparent">
-            SignSpeak
+            SignSync
           </span>
         </a>
         
@@ -84,8 +84,8 @@ const NavLinks: React.FC<NavLinksProps> = ({ mobile, onClose }) => {
   const links = [
     { text: 'Home', href: '#hero' },
     { text: 'How It Works', href: '#how-it-works' },
-    { text: 'Features', href: '#features' },
-    { text: 'Demo', href: '#demo' },
+   
+    { text: 'Translation', href: '#demo' },
     { text: 'Get Started', href: '#get-started' },
   ];
 

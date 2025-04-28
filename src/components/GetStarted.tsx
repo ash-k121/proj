@@ -37,14 +37,12 @@ const GetStarted: React.FC = () => {
           
           <p className="text-gray-600 mb-8">
             Be among the first to experience our groundbreaking technology. 
-            Request early access today and help shape the future of accessible communication.
+    
           </p>
           
           <div className="space-y-4 mb-8">
             {[
-              "Priority access to new features",
-              "Free usage during beta period",
-              "Direct support from our team",
+              
               "Help shape product development"
             ].map((item, index) => (
               <div key={index} className="flex items-start">
@@ -60,7 +58,7 @@ const GetStarted: React.FC = () => {
         <div className="bg-white rounded-xl shadow-lg p-8">
           {!submitted ? (
             <>
-              <h3 className="text-xl font-semibold mb-6">Request Early Access</h3>
+              <h3 className="text-xl font-semibold mb-6">Details</h3>
               
               <form onSubmit={handleSubmit}>
                 <div className="mb-4">
@@ -114,7 +112,7 @@ const GetStarted: React.FC = () => {
                   type="submit"
                   className="w-full btn btn-primary text-center"
                 >
-                  Request Early Access
+                  Send
                 </button>
               </form>
             </>
